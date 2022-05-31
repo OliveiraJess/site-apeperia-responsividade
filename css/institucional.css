@@ -1,3 +1,5 @@
+/* tela mobile 320px*/
+
 .institucional {
     display       : flex;
     flex-direction: column;
@@ -51,4 +53,15 @@
 
 .institucional__video {
     width: 100vw;
+}
+
+/* tela tablet*/
+@media screen and (min-width: 768px) {
+    .institucional__contato-email {
+        display: inline-block;
+    }
+
+    .institucional__video {
+        width: 100%;
+    }
 }
